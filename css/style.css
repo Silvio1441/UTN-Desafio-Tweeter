@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background:#000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 1.2rem;
+    color: white;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.buscador input {
+    width: 200px;
+    height: 40px;
+    background: #373030;
+    border-radius: 20px;
+    border: 2px solid #888;
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 16px;
+}
+
+.buscador img {
+    width: 40px;
+}
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.navegador-boton {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.btn-home {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+
+.navegador-boton img {
+    position: absolute;
+    left: 20px;
+    width: 25px;
+}
+
+
+.iconos-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.iconos-nav img {
+    width: 22px;
+}
+
+.iconos-nav i {
+    font-size: 22px;
+}
+
+.usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.usuario img {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.usuario-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6c6e76;
+    border-radius: 20px;
+    width: 220px;
+    height: 40px;
+    gap: 1rem;
+}
+
+.usuario-name h2 {
+    font-size: 1rem;
+}
+
+.usuario-name .img-1 {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.usuario-name .img-2 {
+    width: 10px;
+}
+
+.usuario-name .img-3 {
+    color: #fff;
+    width: 24px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    background: #000;
+    width: 90%;
+    height: 10vh;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+ .aside-izq {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    width: 30 vw;
+    height: auto;
+}
+
+.central {
+    flex: 1 1 auto;
+    background: #000;
+    width: 35vw;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.aside-der {
+    flex: 1 1 auto;
+    background: #373030;
+    height: 80vh;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.aside-izq {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    height: 80vh;
+    width: 22vw;
+}
+
+.user {
+    background: #373030;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+.infoUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.banner {
+
+    width:100%;
+    height: 99px;
+    background: #f1e8e8;
+    background-image: url(../img/Rectangle\ 8.png);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.banner img {
+    width: 10px; 
+}   
+
+.isi {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.perfilUsuario {
+    width: 100%;
+    height: 30vh;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.perfilUsuario h2 {
+    font-size: 1.4rem;
+    margin-bottom: ;
+}
+
+.perfilUsuario span {
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.perfilUsuario p {
+    font-size: 1.3rem;
+}
+
+.usuario-follow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.following .followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user {
+    text-align: center;
+    color: #1090f2;
+}
+
+.sucesos {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    background: #373030;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.sucesos .encabezado img {
+    border-radius: 50%;
+    
+}
+
+.sucesos .encabezado h2 {
+    text-align: center;
+}
+
+.menu-media {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-media i {
+    margin-right: 5px;
+}
+
+.sucesos a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.public {
+    width: 100%;
+    height: auto;
+    background: #373030;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #888;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.posts .perf-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.perf-1 img {
+    width: 60px;
+    border-radius: 50%;
+}.posts span {
+    margin-left: 60px;
+}
+
+.resp {
+    display: flex;
+    justify-content: center;
+}
+
+.aside-izq .people {
+    width: 100%;
+    height: 100vh;
+    background: #373030;
+    color: #fff;
+    margin-top: 20px ;
+    border-radius: 20px;
+}
+
+.people h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.people .people-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.people .people-1 img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.people button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.trends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tr-1 hr, .tr-2 hr, .tr-3 hr {
+    margin: 10px;
+    color: red;
+}
+
+.tr-1-1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.tr-1-1 h4 {
+    padding-bottom: 10px;
+}
+
+.tr-1-1 span {
+    padding-left: 20px;
+    color: #888;
+ }
+
+ .tr-1 h3, .tr-2 h3, .tr-3 h3 {
+    color: #888;
+    padding-left: 20px;
+    font-size: 0.8rem;
+ }
+
+ .tr-1 i, .tr-2 i, .tr-3 i {
+    color: #888;
+}
+
+.twt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
